@@ -1,0 +1,14 @@
+@startuml
+
+entity dev_language {}
+entity room {}
+entity chat {}
+entity user {}
+entity role {}
+entity user_role {}
+entity user_auditing {}
+entity files {}
+entity voice_chat {}
+entity voice_chat_attendee {}
+
+@enduml
