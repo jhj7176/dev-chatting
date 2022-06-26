@@ -1,14 +1,35 @@
 @startuml
+' 한줄주석
+/' 주석 '/
 
+/' html, java, C 등 개발 언어 타입 정의'/
 entity dev_language {}
+
+/' 채팅방 '/
 entity room {}
+
+/' 채팅방 채팅 내용 저장. '/
 entity chat {}
+
+/' 회원정보 '/
 entity user {}
+
+/' 권한 '/
 entity role {}
+
+/' 유저별 권한 정보'/
 entity user_role {}
+
+/' 유저 활동 기록 '/
 entity user_auditing {}
+
+/' 채팅방 파일 전송 이력'/
 entity files {}
+
+/' 음성채팅 '/
 entity voice_chat {}
+
+/' 음성채팅 참여자 '/
 entity voice_chat_attendee {}
 
 @enduml
