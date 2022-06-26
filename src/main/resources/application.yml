@@ -1,0 +1,24 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    encoding:
+      charset: utf-8
+      enabled: true
+      force: true
+
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ENC(x7DDGOP+MIk3WlOGQgTlO0sbzs3wtoPnMUZKGZrAJ0qOb2u3/y9eqYPDh1bqfS/MytKoiR9j5zWV8jCrTqYSx0uWGBj/W5xowu2C2smW/Pq7Mmyf+noCMMKIZaZY3Aw9tsVndnw/Z/V3d5/b4J1574imlmy+F2giz+XzbocTK1RHd+ReFBkkMPmwMw1sM6L1)
+    username: ENC(R9y+YG8u8oFeOZEdusK/7w==)
+    password: ENC(x3s/imLLz5l6ww887PkwnbwmIBQuRb2d)
+
+jasypt:
+  encryptor:
+    bean: jasyptStringEncryptor
